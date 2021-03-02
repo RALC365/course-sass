@@ -1,13 +1,23 @@
-h1{
-    color: yellowgreen;
+$colorUno: yellow;
+$colorDos: red;
+$colorTres: blue;
+$colorCuatro: green;
+
+section{
+    background: $colorUno;
+    h1{
+        background: $colorDos;
+    }
+    h2{
+        background: $colorTres;
+    }
+    p{
+        background: $colorCuatro;
+    }
 }
 
-footer {
-    background: #444;
-    h4 {
-        color: red;
-        a {
-            color: blue;
-        }
+footer{
+    p{
+        background: $colorUno;
     }
 }

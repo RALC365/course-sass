@@ -1,15 +1,18 @@
-h1 {
-  color: yellowgreen;
+section {
+  background: yellow;
+}
+section h1 {
+  background: red;
+}
+section h2 {
+  background: blue;
+}
+section p {
+  background: green;
 }
 
-footer {
-  background: #444;
-}
-footer h4 {
-  color: red;
-}
-footer h4 a {
-  color: blue;
+footer p {
+  background: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
