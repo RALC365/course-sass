@@ -1,18 +1,16 @@
-section {
-  background: yellow;
-}
-section h1 {
+header {
+  height: 200px;
   background: red;
 }
-section h2 {
-  background: blue;
-}
-section p {
+
+section {
+  height: 200px;
   background: green;
 }
 
-footer p {
-  background: yellow;
+footer {
+  height: 200px;
+  background: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

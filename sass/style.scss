@@ -1,23 +1,13 @@
-$colorUno: yellow;
-$colorDos: red;
-$colorTres: blue;
-$colorCuatro: green;
+@import 'variables';
+@import 'header';
+
 
 section{
-    background: $colorUno;
-    h1{
-        background: $colorDos;
-    }
-    h2{
-        background: $colorTres;
-    }
-    p{
-        background: $colorCuatro;
-    }
+    height: 200px;
+    background: $colorCuatro;
 }
 
 footer{
-    p{
-        background: $colorUno;
-    }
+    height: 200px;
+    background: $colorTres;
 }
